@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1582345643 source:c:\users\dell\desktop\1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+
+1582365634 source:c:\users\dell\desktop\project 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+
+1582365634 source:c:\users\dell\desktop\tro choi doan so\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+
+1617300875 source:e:\workspace c\tro choi doan so\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+
