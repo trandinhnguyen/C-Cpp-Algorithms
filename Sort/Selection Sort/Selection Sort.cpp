@@ -3,11 +3,14 @@ using namespace std;
 
 #define N 100000
 
-void selectionSort(int A[], int n) {
+void selectionSort(int A[], int n)
+{
     int minE;
-    for (int i=0; i < n-1; i++) {
+    for (int i = 0; i < n - 1; i++)
+    {
         minE = i;
-        for (int j = i+1; j<n; j++) {
+        for (int j = i + 1; j < n; j++)
+        {
             if (A[j] < A[minE])
                 minE = j;
         }
@@ -16,18 +19,20 @@ void selectionSort(int A[], int n) {
     }
 }
 
-int main() {
+int main()
+{
     int n;
     int A[N];
     cout << "Enter number of elements: ";
     cin >> n;
-    for (int i=0; i<n; i++) {
-        cout << "A[" << i+1 << "]: ";
+    for (int i = 0; i < n; i++)
+    {
+        cout << "A[" << i + 1 << "]: ";
         cin >> A[i];
     }
 
     selectionSort(A, n);
 
-    for (int i=0; i<n; i++)
+    for (int i = 0; i < n; i++)
         cout << A[i] << endl;
 }

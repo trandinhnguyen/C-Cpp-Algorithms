@@ -1,27 +1,31 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void swap1(int &a, int &b) {
+void swap1(int &a, int &b)
+{
     a = a + b;
     b = a - b;
     a = a - b;
 }
 
-void swap2(int &a, int &b) {
+void swap2(int &a, int &b)
+{
     a = a * b;
     b = a / b;
     a = a / b;
 }
 
-void swap3(int &a, int &b) {
+void swap3(int &a, int &b)
+{
     a = a ^ b;
     b = a ^ b;
     a = a ^ b;
 }
 
-int main() {
+int main()
+{
     cout << "Swap 1" << endl;
-    int a=0, b=0;
+    int a = 0, b = 0;
     cin >> a >> b;
     swap1(a, b);
     cout << a << " " << b << endl;
